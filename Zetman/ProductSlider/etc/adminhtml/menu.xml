@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Zetman_ProductSlider::products_slider" title="Product Slider" translate="title" module="Zetman_ProductSlider" sortOrder="20" resource="Zetman_ProductSlider::products_slider" dependsOnModule="Zetman_ProductSlider"/>
+        <add id="Zetman_ProductSlider::all_groups" title="All Groups" translate="title" module="Zetman_ProductSlider" sortOrder="10" resource="Zetman_ProductSlider::all_groups" parent="Zetman_ProductSlider::products_slider" action="zetman_products_slider/group/index" dependsOnModule="Zetman_ProductSlider"/>
+    </menu>
+</config>
